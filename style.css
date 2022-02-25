@@ -1,0 +1,230 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Global Settings */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: all ease-in .3s;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 70px;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* RE-USABLE STYLES */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.theme-title {
+  padding-left: 20px;
+  border-left: 5px solid #0091BE;
+  font-size: 64px;
+  font-family: 'Rancho', cursive;
+  font-weight: 400;
+  color: #8F8F8F;
+  margin-bottom: 20px;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+/* HEADER SECTION */
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0,0,0.7), rgba(0, 0, 0, 0.95)), url("images/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+/* Nav Logo */
+.nav-logo {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.blue {
+  color: #0091BE;
+}
+
+/* Nav Items */
+.nav-items {
+  display: flex;
+}
+
+.nav-items li {
+  margin-right: 50px;
+}
+
+.nav-items li a {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-left: 15px;
+  transition: all ease .4s;
+}
+
+.nav-items li a:hover {
+  border-left: 4px solid #0091BE;
+}
+
+/* Hero Section */
+
+.hero-wrapper {
+  position: absolute;
+  top: 40%;
+  color: #fff;
+}
+
+.intro {
+  font-size: 28px;
+  line-height: normal;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.intro-title {
+  font-size: 76px;
+  color: #0091BE;
+  margin-bottom: 20px;
+}
+
+.intro-excerpt {
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+
+.btn-primary {
+  background-color: #0091BE;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 20px;
+  transition: background-color ease-in .3s;
+}
+
+.btn-primary:hover {
+  background-color: #006d8f;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  color: #0091BE;
+  font-size: 20px;
+  margin-left: 20px;
+  transition: all ease-in .3s;
+}
+
+.btn-secondary:hover {
+  background-color: #0091BE;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* ABOUT SECTION */
+.about-me {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.about-text {
+  font-size: 22px;
+  line-height: 40px;
+  color: #8F8F8F;
+}
+
+.skills-text {
+  font-size: 28px;
+  color: #8F8F8F;
+  margin-bottom: 30px;
+}
+
+/* PROJECTS SECTION */
+
+.projects {
+  width: 100%;
+  height: 800px;
+  background-color: #f3f3f3;
+  padding-top: 50px;
+}
+
+
+
