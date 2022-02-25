@@ -6,13 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nimrod Musungu</title>
 
-    <!-- Bootstrap CSS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-
     <!-- CUSTOM CSS LINK -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -31,12 +24,30 @@
             <ul class="nav-items">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">About Me</a></li>
-              <li><a href="#features">Projects</a></li>
+              <li><a href="#projects">Projects</a></li>
               <li><a href="#contact">Contact</a></li>
+              <button class="contact-btn">Drop Me a Line</button>
             </ul>
           </div>
         </div>
       </nav>
+
+      <!-- Form Overlay -->
+      <div class="overaly"></div>
+
+      <!-- Contact Form Modal -->
+      <div class="modal hidden">
+        <h2 class="form-heading">
+          Fill The Form Below
+        </h2>
+        <form action="#" class="form">
+          <input type="text" class="form-control" placeholder="Enter your name" required>
+          <input type="email" class="form-control" placeholder="Enter your email" required>
+          <input type="text" class="form-control" placeholder="Enter subject" required>
+          <textarea name="message" id="message" placeholder="Enter your Comments" required></textarea>
+          <button class="form-btn">Submit</button>
+        </form>
+      </div>
 
       <!-- Hero Section -->
       <div class="hero container">
@@ -59,7 +70,7 @@
     <main>
 
       <!-- ABOUT SECTION -->
-      <section class="about-me">
+      <section class="about-me" id="about">
         <div class="about-wrapper container">
           <div class="about-side">
             <h3 class="theme-title">Who am I</h3>
@@ -87,19 +98,12 @@
       </section>
 
       <!-- PROJECTS SECTION -->
-      <section class="projects">
+      <section class="projects" id="projects">
         <div class="projects-wrapper container">
           <h3 class="theme-title">Projects</h3>
           <p class="skills-text">Checkout some of the projects that I have done</p>
         </div>
       </section>
     </main>
-
-    <!-- Bootsrap Bundle -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
