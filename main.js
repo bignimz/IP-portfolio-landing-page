@@ -21,3 +21,27 @@ const closeModal = function() {
 open.addEventListener('click', openModal);
 // Close modal
 overlay.addEventListener('click', closeModal)
+
+
+// Project Card Hover Effect
+ let projectCard = document.getElementById('card');
+ let cardHover = document.getElementById('hover');
+
+//  Function that diplays the hover effect on mouse over
+const showHover = function() {
+    cardHover.classList.remove('hidden');
+}
+
+const hideHover = function() {
+    cardHover.classList.add('hidden');
+}
+
+projectCard.addEventListener('mouseover', showHover);
+projectCard.addEventListener('mouseout', hideHover);
+
+// for(let i = 0; i < projectCard.length; i++){
+
+//     projectCard[i].addEventListener('mouseover', showHover);
+//     projectCard.addEventListener('mouseout', hideHover);
+// }
+
