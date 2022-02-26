@@ -435,5 +435,15 @@ a {
   transform: rotate(0deg);
 }
 
+/* CONTACT SECTION */
+.contact {
+  padding: 50px 0px;
+}
+
+.contact-subhead {
+  font-size: 28px;
+  color: #8F8F8F;
+}
+
 
 

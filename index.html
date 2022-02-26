@@ -5,7 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nimrod Musungu</title>
-    <link rel="shortcut icon" href="nmc.png" type="image/x-icon">
+    <link rel="shortcut icon" href="nmc.png" type="image/x-icon" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css"
+      integrity="sha512-8Vtie9oRR62i7vkmVUISvuwOeipGv8Jd+Sur/ORKDD5JiLgTGeBSkI3ISOhc730VGvA5VVQPwKIKlmi+zMZ71w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- CUSTOM CSS LINK -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -37,14 +46,32 @@
 
       <!-- Contact Form Modal -->
       <div class="modal hidden">
-        <h2 class="form-heading">
-          Fill The Form Below
-        </h2>
+        <h2 class="form-heading">Fill The Form Below</h2>
         <form action="#" class="form">
-          <input type="text" class="form-control" placeholder="Enter your name" required>
-          <input type="email" class="form-control" placeholder="Enter your email" required>
-          <input type="text" class="form-control" placeholder="Enter subject" required>
-          <textarea name="message" id="message" placeholder="Enter your Comments" required></textarea>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Enter your email"
+            required
+          />
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter subject"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Enter your Comments"
+            required
+          ></textarea>
           <button class="form-btn">Submit</button>
         </form>
       </div>
@@ -59,8 +86,12 @@
           <p class="intro-excerpt">
             " I am an open minded creative thinker who loves to code."
           </p>
-          <a href="#about"><button class="btn btn-primary">More About Me</button></a>
-          <a href="#projects"><button class="btn btn-secondary">Checkout Projects</button></a>
+          <a href="#about"
+            ><button class="btn btn-primary">More About Me</button></a
+          >
+          <a href="#projects"
+            ><button class="btn btn-secondary">Checkout Projects</button></a
+          >
         </div>
       </div>
     </header>
@@ -68,19 +99,18 @@
 
     <!-- Main Section -->
     <main>
-
       <!-- ABOUT SECTION -->
       <section class="about-me" id="about">
         <div class="about-wrapper container">
           <div class="about-side">
-            <h3 class="theme-title">Who am I</h3>
+            <h3 class="theme-title">About Me</h3>
             <p class="about-text roboto">
-              Hi, I'm a Passionate Full Stack Developer who loves developing custom
-              WordPress themes, plugins and CMS Systems using PHP & MySQL that's
-              unique for every project. I am proficient in HTML, CSS, JavaScript for
-              Front-end development as well as Node.js, MongoDB with a bit of
-              Python. I like to to always advance my skills in technology and at the
-              moment am learning React.
+              Hi, I'm a Passionate Full Stack Developer who loves developing
+              custom WordPress themes, plugins and CMS Systems using PHP & MySQL
+              that's unique for every project. I am proficient in HTML, CSS,
+              JavaScript for Front-end development as well as Node.js, MongoDB
+              with a bit of Python. I like to to always advance my skills in
+              technology and at the moment am learning React.
             </p>
           </div>
 
@@ -88,10 +118,10 @@
             <h3 class="theme-title">Skills</h3>
             <p class="skills-text">Some of the skills that I'm Proficient in</p>
             <div class="skills-wrapper">
-              <img src="images/html5.png" alt="">
-              <img src="images/javascript.png" alt="">
-              <img src="images/css.png" alt="">
-              <img src="images/github.png" alt="">
+              <img src="images/html5.png" alt="" />
+              <img src="images/javascript.png" alt="" />
+              <img src="images/css.png" alt="" />
+              <img src="images/github.png" alt="" />
             </div>
           </div>
         </div>
@@ -101,38 +131,21 @@
       <section class="projects" id="projects">
         <div class="projects-wrapper container">
           <h3 class="theme-title">Projects</h3>
-          <p class="skills-text">Checkout some of the projects that I have done</p>
+          <p class="skills-text">
+            Checkout some of the projects that I have done
+          </p>
           <div class="projects-card-wrapper">
-
-            <div class="project-card" id="card">
+            <div class="project-card" id="card1">
               <div class="project-image">
-                <img src="images/custome-theme-proj6.png" alt="">
+                <img src="images/custome-theme-proj6.png" alt="" />
               </div>
 
               <div class="project-hover hidden" id="hover">
                 <h3 class="hover-title">Landing Page</h3>
-                <p class="hover-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nihil, optio laboriosam harum quas saepe?</p>
-                <h4 class="hover-lang">Skills Used</h4>
-                <ol class="hover-skills">
-                  <li>HTML5</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                </ol>
-                <a href="#"><button class="hover-btn">View Live</button></a>
-                <a href="#"><button class="hover-btn">View Code</button></a>
-              </div>
-
-            </div>
-
-
-            <div class="project-card" id="card">
-              <div class="project-image">
-                <img src="images/custome-theme-proj5.png" alt="">
-              </div>
-
-              <div class="project-hover hidden" id="hover">
-                <h3 class="hover-title">Landing Page</h3>
-                <p class="hover-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nihil, optio laboriosam harum quas saepe?</p>
+                <p class="hover-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+                  nihil, optio laboriosam harum quas saepe?
+                </p>
                 <h4 class="hover-lang">Skills Used</h4>
                 <ol class="hover-skills">
                   <li>HTML5</li>
@@ -144,14 +157,17 @@
               </div>
             </div>
 
-            <div class="project-card" id="card">
+            <div class="project-card" id="card2">
               <div class="project-image">
-                <img src="images/custome-theme-proj7.png" alt="">
+                <img src="images/custome-theme-proj5.png" alt="" />
               </div>
 
-              <div class="project-hover hidden" id="hover">
+              <div class="project-hover hidden" id="hover2">
                 <h3 class="hover-title">Landing Page</h3>
-                <p class="hover-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nihil, optio laboriosam harum quas saepe?</p>
+                <p class="hover-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+                  nihil, optio laboriosam harum quas saepe?
+                </p>
                 <h4 class="hover-lang">Skills Used</h4>
                 <ol class="hover-skills">
                   <li>HTML5</li>
@@ -163,6 +179,27 @@
               </div>
             </div>
 
+            <div class="project-card" id="card3">
+              <div class="project-image">
+                <img src="images/custome-theme-proj7.png" alt="" />
+              </div>
+
+              <div class="project-hover hidden" id="hover">
+                <h3 class="hover-title">Landing Page</h3>
+                <p class="hover-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+                  nihil, optio laboriosam harum quas saepe?
+                </p>
+                <h4 class="hover-lang">Skills Used</h4>
+                <ol class="hover-skills">
+                  <li>HTML5</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ol>
+                <a href="#"><button class="hover-btn">View Live</button></a>
+                <a href="#"><button class="hover-btn">View Code</button></a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -177,10 +214,15 @@
 
       <!-- CONTACT SECTION -->
       <section class="contact">
-        <div class="contact wrapper container">
-          <h5 class="theme-title">Get in touch</h5>
-          <p class="contact-subhead">Feel free to reach out</p>
-
+        <div class="contact-wrapper container">
+          <div class="left">
+            <h5 class="theme-title">Get in touch</h5>
+            <p class="contact-subhead">Feel free to reach out</p>
+          </div>
+          <div class="right">
+            <i class="fab fa-mailbox"></i>
+            <i class="fab fa-linkedin"></i>
+          </div>
         </div>
       </section>
     </main>

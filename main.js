@@ -23,9 +23,13 @@ open.addEventListener('click', openModal);
 overlay.addEventListener('click', closeModal)
 
 
+
+
+
 // Project Card Hover Effect
- let projectCard = document.getElementById('card');
+ let projectCard = document.getElementById('card1');
  let cardHover = document.getElementById('hover');
+
 
 //  Function that diplays the hover effect on mouse over
 const showHover = function() {
@@ -38,6 +42,7 @@ const hideHover = function() {
 
 projectCard.addEventListener('mouseover', showHover);
 projectCard.addEventListener('mouseout', hideHover);
+
 
 // for(let i = 0; i < projectCard.length; i++){
 
