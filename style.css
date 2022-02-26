@@ -443,6 +443,7 @@ a {
 /* CONTACT SECTION */
 .contact {
   padding: 50px 0px;
+  background-color: #EAECEF;
 }
 
 .contact-wrapper {
@@ -450,7 +451,7 @@ a {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  gap: 200px;
+  gap: 150px;
 }
 
 .contact-subhead {
@@ -461,6 +462,11 @@ a {
 .contact-list {
   font-size: 30px;
   margin-bottom: 20px;
+}
+
+.contact-wrapper img {
+  width: 500px;
+  height: auto;
 }
 
 
