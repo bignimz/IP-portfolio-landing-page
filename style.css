@@ -470,4 +470,12 @@ a {
 }
 
 
+/* FOOTER SECTION */
+.footer {
+  padding: 20px;
+  background-color: #0091BE;
+  color: #ffffff;
+  font-size: 24px;
+}
+
 
