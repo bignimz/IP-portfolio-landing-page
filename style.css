@@ -343,7 +343,7 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 99;
-  transition: ease-out .4s;
+  transition: all ease-in-out .5s;
 }
 
 .project-card:hover img {
