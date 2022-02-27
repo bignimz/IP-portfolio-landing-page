@@ -26,27 +26,27 @@ overlay.addEventListener('click', closeModal)
 
 
 
-// Project Card Hover Effect
- let projectCard = document.getElementById('card1');
- let cardHover = document.getElementById('hover');
+// // Project Card Hover Effect
+//  let projectCard = document.querySelectorAll('.project-card');
+//  let cardHover = document.querySelectorAll('project-hover');
 
 
-//  Function that diplays the hover effect on mouse over
-const showHover = function() {
-    cardHover.classList.remove('hidden');
-}
+// //  Function that diplays the hover effect on mouse over
+// const showHover = function() {
+//     cardHover.classList.remove('hidden');
+// }
 
-const hideHover = function() {
-    cardHover.classList.add('hidden');
-}
+// const hideHover = function() {
+//     cardHover.classList.add('hidden');
+// }
 
-projectCard.addEventListener('mouseover', showHover);
-projectCard.addEventListener('mouseout', hideHover);
+// projectCard.addEventListener('mouseover', showHover);
+// projectCard.addEventListener('mouseout', hideHover);
 
 
 // for(let i = 0; i < projectCard.length; i++){
 
 //     projectCard[i].addEventListener('mouseover', showHover);
-//     projectCard.addEventListener('mouseout', hideHover);
+//     projectCard[i].addEventListener('mouseout', hideHover);
 // }
 

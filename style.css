@@ -342,6 +342,12 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 99;
+  transition: ease-out .4s;
+}
+
+.project-card:hover img {
+  opacity: 0;
 }
 
 /* Project Card Hover */
@@ -373,7 +379,7 @@ a {
 }
 
 .hover-lang {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .hover-skills {
@@ -381,7 +387,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  font-size: 26px;
+  font-size: 20px;
   margin-bottom: 50px;
 }
 
