@@ -348,6 +348,7 @@ a {
 
 .project-card:hover img {
   opacity: 0;
+  z-index: -1;
 }
 
 /* Project Card Hover */
